@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<!-- Dokumen HTML5 --> 
+<html lang="en"> 
+<head> 
+   <!-- Encoding karakter agar mendukung berbagai bahasa --> 
+   <meta charset="UTF-8"> 
+ 
+   <!-- Agar tampilan responsif di mobile --> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+   <!-- Judul halaman di tab browser --> 
+   <title>Stepstyle Store</title> 
+ 
+   <!-- File CSS utama --> 
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body> 
+ 
+<!--  HEADER  --> 
+<!-- Header utama website --> 
+<header class="header"> 
+ <!-- Elemen dekoratif header --> 
+ <div class="header-shape"> 
+   <!-- Pembungkus konten header --> 
+   <div class="header-inner"> 
+ 
+     <!-- Navigasi sebelah kiri --> 
+     <nav class="nav nav-left"> 
+       <a href="#">Home</a> 
+       <a href="#products">Products</a> 
+       <a href="#about">About Us</a> 
+     </nav> 
+ 
+     <!-- Brand di tengah header --> 
+     <div class="brand-center"> 
+        <img src="StepstyleStore.png" alt="Stepstyle Logo" class="logo-img">
+     </div> 
+ 
+     <!-- Area kanan header --> 
+     <div class="nav-right"> 
+       <!-- Icon keranjang --> 
+       <span class="cart">
+🛒
+</span> 
+ 
+       <!-- Tombol login --> 
+       <button class="signin-btn">Sign In</button> 
+     </div> 
+ 
+   </div> 
+ </div> 
+</header> 
+ 
+<!--  HERO SECTION  --> 
+<!-- Section utama pertama --> 
+<section class="hero" id="home"> 
+ 
+   <!-- Konten teks hero --> 
+   <div class="hero-content"> 
+       <!-- Judul utama --> 
+       <h1>Step Up Every Style</h1> 
+ 
+       <!-- Deskripsi singkat --> 
+       <p>Premium shoes for everyday comfort and performance</p> 
+       <p>Temukan koleksi favoritmu dengan desain terbaru dan stok terbatas!.</p>
+ 
+       <!-- Grup tombol hero --> 
+       <div class="hero-buttons"> 
+           <button class="primary-button">Shop Now</button> 
+           <button class="secondary-button">Explore</button> 
+       </div> 
+   </div> 
+ 
+   <!-- Gambar utama hero --> 
+   <img 
+       src="https://m.media-amazon.com/images/I/614aiM56siL._AC_UY1000_.jpg" 
+       alt="Sepatu Unggulan Stepstyle" 
+       class="hero-image" 
+   > 
+</section> 
+ 
+<!--  ABOUT SECTION  --> 
+<!-- Section tentang brand --> 
+<section class="about" id="about"> 
+   <!-- Container untuk membatasi lebar --> 
+   <div class="container about-grid"> 
+ 
+       <!-- Deskripsi brand --> 
+       <div> 
+           <h2>About Stepstyle Store</h2>
+           <h4>Kenapa sih harus Stepstyle Store?</h4> 
+           <p> 
+               Tidak semua sepatu memberikan kenyamanan yang sama. Karena itu, Stepstyle hadir sebagai store yang menyeleksi produk terbaik sebelum sampai ke tangan kamu. Setiap koleksi dipilih berdasarkan kualitas material, bantalan, serta kenyamanan pemakaian agar cocok untuk aktivitas seharian. Dengan desain modern dan pilihan yang beragam, Stepstyle siap menemani langkahmu di setiap momen. Belanja lebih tenang, melangkah lebih percaya diri bersama Stepstyle. 
+           </p> 
+       </div> 
+ 
+       <!-- Highlight keunggulan --> 
+       <div class="about-highlight"> 
+           <div class="border-about"><p>Comfort First</p></div>
+           <div class="border-about"><p>Modern Design</p></div> 
+           <div class="border-about"><p>Durable Material</p></div>
+       </div> 
+ 
+   </div> 
+</section> 
+ 
+<!--  PRODUCT SECTION  --> 
+<!-- Konten utama produk --> 
+<main class="container" id="products"> 
+ 
+   <!-- Judul section --> 
+   <h2 class="section-title">Our Products</h2> 
+ 
+   <!-- Grid daftar produk --> 
+   <section class="product-grid"> 
+ 
+       <!-- Card produk --> 
+       <div class="product-card"> 
+           <!-- Gambar produk --> 
+           <img src="https://m.media-amazon.com/images/I/614aiM56siL._AC_UY1000_.jpg" 
+alt="Sneakers Urban"> 
+ 
+           <!-- Nama produk --> 
+           <h3>Sneakers Urban</h3> 
+ 
+           <!-- Harga produk --> 
+           <p class="price">Rp 799.000</p> 
+ 
+           <!-- Tombol aksi --> 
+           <button class="primary-button">Add to Cart</button> 
+       </div> 
+ 
+       <div class="product-card"> 
+           <img src="https://images.tokopedia.net/img/JFrBQq/2023/11/8/9dfd5887-95f2-4807-a0f3-b59ed42b57cb.jpg" 
+alt="Running Shoes Pro"> 
+           <h3>Running Shoes Pro</h3> 
+           <p class="price">Rp 1.199.000</p> 
+           <button class="primary-button">Add to Cart</button> 
+       </div> 
+ 
+       <div class="product-card"> 
+           <img src="https://m.media-amazon.com/images/I/61LFgqNhO-L._AC_UF1000,1000_QL80_.jpg" 
+alt="Casual Leather"> 
+           <h3>Casual Leather</h3> 
+           <p class="price">Rp 999.000</p> 
+           <button class="primary-button">Add to Cart</button> 
+       </div> 
+ 
+       <div class="product-card"> 
+           <img src="https://m.media-amazon.com/images/I/71dp86WUW-L._AC_UY900_.jpg" 
+alt="Outdoor Adventure"> 
+           <h3>Outdoor Adventure</h3> 
+           <p class="price">Rp 1.499.000</p> 
+           <button class="primary-button">Add to Cart</button> 
+       </div> 
+ 
+   </section> 
+</main> 
+ 
+<!--  CONTACT SECTION  --> 
+<!-- Section form kontak --> 
+<section class="contact" id="contact"> 
+   <div class="container"> 
+ 
+       <!-- Judul kontak --> 
+       <h2>Contact Us</h2> 
+ 
+       <!-- Form input --> 
+       <form class="form"> 
+ 
+           <!-- Input nama --> 
+           <div class="form-group"> 
+               <label>Nama</label> 
+               <input type="text" placeholder="Nama Lengkap"> 
+           </div> 
+ 
+           <!-- Input email --> 
+           <div class="form-group"> 
+               <label>Email</label> 
+               <input type="email" placeholder="Email"> 
+           </div> 
+ 
+           <!-- Input pesan --> 
+           <div class="form-group"> 
+               <label>Pesan</label> 
+               <textarea placeholder="Tulis pesan kamu"></textarea> 
+           </div> 
+ 
+           <!-- Tombol kirim --> 
+           <button class="primary-button">Send Message</button> 
+       </form> 
+ 
+   </div> 
+</section> 
+ 
+<!--  FOOTER  --> 
+<!-- Bagian paling bawah website --> 
+<footer class="footer"> 
+   <p>&copy; 2026 Stepstyle Store. All rights reserved.</p> 
+</footer> 
+ <script src="main.js" defer></script>
+</body> 
+</html>
